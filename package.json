@@ -4,7 +4,6 @@
   "description": "Made with create-react-library",
   "author": "vageeshjoshi1",
   "license": "MIT",
-  "repository": "vageeshjoshi1/my-react-library",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -22,6 +21,10 @@
     "test:watch": "react-scripts test --env=jsdom",
     "predeploy": "cd example && npm install && npm run build",
     "deploy": "gh-pages -d example/build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vageeshjoshi1/my-react-library.git"
   },
   "peerDependencies": {
     "react": "^16.0.0"

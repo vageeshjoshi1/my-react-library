@@ -1,4 +1,4 @@
-import Button from './components/Button'
-import Card from './components/Card'
+import Button from './Button'
+import Card from './Card'
 
 export { Button, Card }
